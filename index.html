@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SomethingWeAllAdore" />
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/x-icon" href="images/logo.png" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Something We All Adore</title>
+</head>
+
+<body>
+  <header class="header__section">
+    <div class="container">
+      <div class="header">
+        <a href="#" class="header__image">
+          <img src="img/logo.png" alt="Logo Image Of Website" />
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-list-item">
+              <a href="#happiness" class="header__nav-list-item-link"
+                onclick="here('happiness-box__info')">Happiness</a>
+            </li>
+
+            <li class="header__nav-list-item">
+              <a href="#books" class="header__nav-list-item-link" onclick="here('info-happiness')">Info Happiness</a>
+            </li>
+
+            <li class="header__nav-list-item">
+              <a href="#about_us" class="header__nav-list-item-link" onclick="here('about')">About Us</a>
+            </li>
+
+            <li class="header__nav-list-item">
+              <a href="#contact" class="header__nav-list-item-link" onclick="here('contact')">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <header class="header__section--mobile">
+    <div class="container">
+
+      <a href="#" class="header__image">
+        <img src="img/logo.png" alt="Logo Image Of Website" class="header__image--mobile" />
+      </a>
+
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+      <ul class="menu">
+        <li class="menu__item">
+          <a href="#happiness" class="menu__item-link" onclick="here('happiness-box__info')">Happiness</a>
+        </li>
+
+        <li class="menu__item">
+          <a href="#books" class="menu__item-link" onclick="here('info-happiness')">Info Happiness</a>
+        </li>
+
+        <li class="menu__item">
+          <a href="#about_us" class="menu__item-link" onclick="here('about')">About Us</a>
+        </li>
+
+        <li class="menu__item">
+          <a href="#contact" class="menu__item-link" onclick="here('contact')">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+    </div>
+  </header>
+
+  <section class="happiness__section">
+    <div class="container">
+      <div class="happiness">
+        <div class="happiness__img">
+          <img src="img/happy_4.jpg" alt="Happiness Img " />
+        </div>
+
+        <div class="happiness__info">
+          <h2 class="happiness_info-header">How happy are you?</h2>
+
+          <p class="happiness_info-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dicta sint
+            quibusdam, fugit quod commodi ipsa, eligendi quaerat enim eveniet deleniti id repellat
+            repellendus nisi! Deserunt quibusdam expedita pariatur ea, doloremque odio hic labore
+            dicta maxime voluptatem a ratione quia neque nihil ipsa. Iure laudantium repellat
+            nostrum sint laborum quaerat molestias, et libero perspiciatis commodi doloribus
+            possimus quisquam debitis error?
+          </p>
+
+          <button class="btn btn-yellow">Read More</button>
+        </div>
+      </div>
+      <div class="happiness-box">
+        <div class="happiness-box__info" id="happiness-box__info">
+          <h3 class="happiness-box__info-header">Happiness in numbers</h3>
+          <p class="happiness-box__info-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex eius quia nihil sapiente
+            odit debitis, velit error veniam adipisci nesciunt officia. Inventore maxime quo ex
+            impedit sint voluptate.
+          </p>
+          <a href="#" class="happiness-box__info-text">Read More ></a>
+        </div>
+
+        <div class="happiness-box__image-first">
+          <img src="img/graphic_1.png" alt="Percents of Happiness" />
+        </div>
+
+        <div class="happiness-box__image-first">
+          <img src="img/graphic_2.png" alt="Circle of happy people with %" />
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="happy-help__section">
+    <div class="container">
+      <h2 class="happy-help__header">We can help you To Be happy</h2>
+      <div class="happy-help">
+        <div class="happy-help__info">
+          <p class="happy-help__info-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis modi cum ratione
+            itaque, neque eveniet numquam rem, id nisi totam dolore, quibusdam sunt ducimus
+            consequuntur placeat blanditiis. Consequatur iste debitis eaque deserunt eligendi
+            nihil magnam cumque? Expedita accusamus dolores ex? Ipsa placeat optio et quas quos
+            veritatis impedit. Ipsam nesciunt accusamus nihil perferendis vitae optio maiores
+            dolor facilis eum aliquid?
+          </p>
+
+          <button class="btn btn-black">Read More</button>
+        </div>
+
+        <div class="happy-help__img">
+          <img src="img/happy_2.jpg" alt="Happy Team Help Image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-happy__section">
+    <div class="container">
+      <div class="how-happy__box">
+        <div class="how-happy__image">
+          <img src="img/happy_1.jpg" alt="" />
+        </div>
+
+        <div class="how-happy__info" id="info-happiness">
+          <h2 class="how-happy__info-header">% Happiness</h2>
+          <p class="how-happy__info-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ea sed eaque
+            dolorum voluptas minus eligendi aut accusantium quo incidunt! Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Natus illo, delectus sit error blanditiis fuga sunt
+            maiores quas voluptatum repudiandae.
+          </p>
+          <button class="btn btn-black">Read More</button>
+          <div class="how-happy__info-image">
+            <img src="img/graphic_1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about__section" id="about">
+    <div class="container">
+      <h2 class="about__header">About Us</h2>
+      <p class="about__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum modi itaque obcaecati,
+        tempore numquam dolor aliquam omnis illum quis architecto quia fugiat.
+      </p>
+      <div class="about__image">
+        <img src="img/happy_4.jpg" alt="" />
+      </div>
+      <button class="btn btn-yellow">Read More</button>
+    </div>
+  </section>
+
+  <section class="team__section">
+    <div class="container">
+      <div class="team">
+        <div class="team__image">
+          <img src="img/happy_2.jpg" alt="" />
+        </div>
+
+        <div class="team__info">
+          <h2 class="team__info-header">Our Team</h2>
+          <p class="team__info-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rerum magnam
+            repudiandae qui ut blanditiis veniam mollitia suscipit inventore quidem?
+          </p>
+
+          <button class="btn btn-yellow">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="method__section">
+    <div class="container">
+      <div class="method">
+        <div class="method__info">
+          <h2 class="method__info-header">Try Our Method for free</h2>
+          <p class="method__info-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ipsam illum repellendus
+            praesentium magnam asperiores aut et fugiat suscipit nisi! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Provident reiciendis sequi animi fugit minima quod
+            cumque quisquam commodi, debitis pariatur?
+          </p>
+          <button class="btn btn-yellow">Reade More</button>
+        </div>
+        <div class="method__image">
+          <img src="img/happy_1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe__section">
+    <div class="container">
+      <div class="subscribe">
+        <div class="subscribe__box">
+          <form action="#">
+            <div class="full-name">
+              <div class="input-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div class="input-group">
+                <label for="surname" class="form-label">Surname</label>
+                <input type="text" class="form-control" id="surname" />
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="input-group">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="input-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="15"></textarea>
+            </div>
+
+            <a class="btn subscribe__btn">Subscribe</a>
+          </form>
+
+          <p class="subscribe__box-small">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum repudiandae vero
+            corrupti culpa ipsum, inventore quae quis natus rerum suscipit minima facilis!
+            Explicabo dignissimos qui rerum neque cupiditate quae odio nobis nihil inventore.
+            Corporis, rerum aut.
+          </p>
+        </div>
+        <div class="subscribe__info">
+          <h2 class="subscribe__info-heading">Subscribe To Our Newsletter</h2>
+          <p class="subscribe__info-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsa neque beatae veniam
+            voluptatum tempore nihil! Fuga, accusamus laudantium. Accusamus. Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Dignissimos quas quos iusto, soluta quia
+            voluptates ipsum delectus voluptate. Dolores, nostrum?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact__section" id="contact">
+    <div class="container">
+      <h2 class="contact__heading">Contact</h2>
+      <p class="contact__text">Lorem ipsum dolor sit amet consectetur.</p>
+      <div id="map"></div>
+      <button class="btn btn-black">Contact</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <a href="#">
+          <img src="img/logo_white.png" alt="" />
+        </a>
+      </div>
+
+      <nav class="footer__nav">
+        <ul class="footer__nav-primary-list">
+          <li class="footer__nav-primary-item">
+            <a class="footer__nav-primary-item-link" onclick="here('happiness-box__info')">Happiness</a>
+          </li>
+          <li class="footer__nav-primary-item">
+            <a class="footer__nav-primary-item-link" onclick="here('info-happiness')">Info Happiness</a>
+          </li>
+          <li class="footer__nav-primary-item">
+            <a class="footer__nav-primary-item-link" onclick="here('about')">About Us</a>
+          </li>
+          <li class="footer__nav-primary-item">
+            <a class="footer__nav-primary-item-link" onclick="here('contact')">Contact</a>
+          </li>
+        </ul>
+        <ul class="footer__nav-secondary-list">
+          <li class="footer__nav-secondary-item">
+            <a href="#" class="footer__nav-secondary-item-link">Policy Privacy</a>
+          </li>
+          <li class="footer__nav-secondary-item">
+            <a href="#" class="footer__nav-secondary-item-link">Cookies</a>
+          </li>
+          <li class="footer__nav-secondary-item">
+            <a href="#" class="footer__nav-secondary-item-link">FAQs</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="white-line"></div>
+
+      <p class="footer__copyright">Copyright | AwesomeTeam</p>
+    </div>
+  </footer>
+
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_Nk_OKgX7SEcdG2ff6_CxS8YosYkLSvs&libraries=places&callback=initMap">
+  </script>
+
+  <script>
+    let map;
+
+    function initMap() {
+      const myLatLng = {
+        lat: 41.0256749193512,
+        lng: 21.335805269405167
+      };
+
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: myLatLng,
+        zoom: 18,
+      });
+
+      new google.maps.Marker({
+        position: myLatLng,
+        map,
+        title: "iSource",
+      });
+    }
+
+    window.initMap = initMap;
+
+    function here(id) {
+      document.getElementById("menu-toggle").checked = false;
+
+      document.getElementById(id).scrollIntoView({
+        behavior: "smooth",
+        block: 'center'
+      });
+    }
+  </script>
+</body>
+
+</html>
